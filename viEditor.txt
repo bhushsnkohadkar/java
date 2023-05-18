@@ -1,0 +1,96 @@
+Once you install Linux, you get three editors, Vi, Vim and gedit. Vim and Vi work in exactly similar fashion. gedit works same as that of notpad under windows. 
+VI is a text editor and the most popular in the Linux world. The reasons for its popularity are
+1) availability for almost all Linux distros.
+2) VI works the same throughout multiple platforms, and 
+3) its user-friendly features.
+
+Currently, VI Improved or VIM is the most used advanced counterpart of VI.
+
+To work on the VI text editor, you have to know how to use the VI editor in Linux.  
+
+VI text editor works in two modes::
+1) Command mode and 
+2) Insert mode. 
+
+Command mode :: users commands are taken to take action on a file.
+                The VI editor, usually, starts in the command mode. 
+                Here, the words typed act as commands.
+Hence, one should be in the command mode while passing a command.
+
+Insert mode :: file editing is done in this mode. 
+               Here, the text is inserted into the file. 
+               So, you need to be in the insert mode to enter text. 
+               Just type ‘i’ to be in the insert mode. 
+
+Use the Esc key to switch from insert mode to command mode in the editor. 
+If you don’t know your current mode, press the Esc key twice. This takes you to the command mode.
+
+Launch VI Text Editor 
+To launch the editor, open your Linux terminal and then type:
+vi <filename_NEW> or <filename_EXISTING>
+ 
+
+VI Editing Commands
+You need to be in the command mode to run editing commands in the VI editor. VI is case-sensitive. Hence, make sure you use the commands in the correct letter case.
+Also, make sure you type the right command to avoid undesired changes. Below are some of the essential commands to use in VI.
+
+i – Inserts at cursor (gets into the insert mode)
+
+a – Writes after the cursor (gets into the insert mode)
+
+A – Writes at the ending of a line (gets into the insert mode)
+
+o – Opens a new line (gets into the insert mode)
+
+ESC – Terminates the insert mode
+
+u – Undo the last change
+
+U – Undo all changes of the entire line
+
+D – Deletes the content of a line after the cursor
+
+R – Overwrites characters from the cursor onwards
+
+r – Replaces a character
+
+s – Substitutes one character under the cursor and continue to insert
+
+S – Substitutes a full line and start inserting at the beginning of a line
+
+~ – Changes a character’s case
+
+dd – Deletes the line
+
+3dd – Deletes 3 lines
+
+dw – Deletes a word
+
+4dw – Deletes 4 words
+
+x – Deletes a character at the cursor
+
+cw – Changes the word
+
+Commands for Moving within a File
+For moving within a file, you should be in the command mode. Also, arrow keys can be used to navigate. Below are the commands used to navigate within a file.
+
+k – Moves cursor up
+
+j – Moves cursor down
+
+l – Moves cursor right
+
+h – Moves cursor left
+
+
+Commands for Saving and Closing a File
+To exit the text editor and save the changes to a file, you need to be in the command mode. Below are the commands to use for saving and closing a file in the editor.
+
+Shift+zz – Saves a file and exits
+
+:w – Saves a file and keeps the file open
+
+:q – Exits without saving
+
+:wq – Saves a file and quits

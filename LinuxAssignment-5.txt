@@ -1,0 +1,7 @@
+1. Using positional parameter display contents of file. File is given as command line argument.
+2. Write a script to copy the contents of file1 to file2 using positional parameters.
+3. Write a script to copy contents of 2 files in one file and see the result using cat. Use    positional parameters.
+4. Write a shell utility to copy top n lines from a file into fileCopy.txt file. Pass number of       lines and file name ascommand line arguments. 
+5. Search if word Russia exsists in file country.
+6. Try out tar command
+7. Try out zip command.
